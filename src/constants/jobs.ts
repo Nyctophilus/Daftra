@@ -1,0 +1,51 @@
+const jobs = [
+  {
+    id: "CZX11#@%!Dztj^&i<mj",
+    title: "Gaming UI designer",
+    company_name: "Rockstar games",
+    logo: "https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=600",
+    location: "ElMansoura, Egypt",
+    post_date: "10 days ago",
+    req_experience: "0 - 3",
+    job_type: "Full time",
+    env: "Remote",
+    tags: ["creative / Design", "IT / Software development", "Gaming"],
+    edu_lvl: "bachelors degree",
+    career_lvl: "junior",
+    salary: "20k - 25k EGP",
+  },
+  {
+    id: "adaczx21312z675#$1",
+    title: "senior UX UI Designer",
+    company_name: "Egabi",
+    logo: "https://images.pexels.com/photos/9843280/pexels-photo-9843280.jpeg?auto=compress&cs=tinysrgb&w=600",
+    location: "Cairo, Egypt",
+    post_date: "10 days ago",
+    req_experience: "5 - 7",
+    job_type: "Full time",
+    env: "Hybird",
+    tags: ["creative / Design", "IT / Software development"],
+    edu_lvl: "bachelors degree",
+    career_lvl: "senior",
+    salary: "10k - 15k EGP",
+  },
+  {
+    id: "sadsadsad23123",
+    title: "React Frontend developer",
+    company_name: "Magara",
+    logo: "https://images.pexels.com/photos/2235130/pexels-photo-2235130.jpeg?auto=compress&cs=tinysrgb&w=600",
+    location: "Cairo, Egypt",
+    post_date: "10 days ago",
+    req_experience: "3 - 5",
+    job_type: "Freelance",
+    env: "Remote",
+    tags: ["creative / Design", "IT / Software development"],
+    edu_lvl: "bachelors degree",
+    career_lvl: "mid - senior",
+    salary: "30k - 50k EGP",
+  },
+];
+
+export default jobs;
+
+export type Job = (typeof jobs)[number];
